@@ -81,20 +81,20 @@ unit test class instantiates different combinations of those.
 
 # How to build?
 
-  mkdir build
-  cd build
-  cmake ..
-  make
-  ./test/lru_map_test
+    mkdir build
+    cd build
+    cmake ..
+    make
+    ./test/lru_map_test
 
 ## How to use clang++?
-  export CXX=/usr/bin/clang++
-  cmake ..
+    export CXX=/usr/bin/clang++
+    cmake ..
 
 ## How to view compilation and linking commands?
-  make VERBOSE=1
+    make VERBOSE=1
 
 ## How to clean?
-  cd build
-  rm ./* -rf
+    cd build
+    rm ./* -rf
 
